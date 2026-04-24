@@ -25,7 +25,7 @@ public:
 
         while (running) {
             double currentTime = GetCurrentTime();
-            double deltaTime = currentTime – previousTime;
+            double deltaTime = currentTime - previousTime;
             previousTime = currentTime;
 
             // Ограничиваем deltaTime для предотвращения "спирали смерти"
